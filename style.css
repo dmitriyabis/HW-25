@@ -2,14 +2,14 @@
   height: 400px;
   width: 400px;
 }
-.child1 {
+.child:nth-child(1) {
   width: 50px;
   height: 50px;
   background: red;
   position: absolute;
   z-index: 0;
 }
-.child2 {
+.child:nth-child(2) {
   width: 50px;
   height: 50px;
   background: blue;
@@ -18,7 +18,7 @@
   top: 35px;
   left: 35px;
 }
-.child3 {
+.child:nth-child(3) {
   width: 50px;
   height: 50px;
   background: greenyellow;
