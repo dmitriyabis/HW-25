@@ -1,0 +1,29 @@
+.box {
+  height: 400px;
+  width: 400px;
+}
+.child1 {
+  width: 50px;
+  height: 50px;
+  background: red;
+  position: absolute;
+  z-index: 0;
+}
+.child2 {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  z-index: 1;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+.child3 {
+  width: 50px;
+  height: 50px;
+  background: greenyellow;
+  z-index: 0;
+  position: absolute;
+  top: 65px;
+  left: 65px;
+}
